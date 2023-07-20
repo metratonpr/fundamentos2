@@ -1,0 +1,25 @@
+.card {
+    width: 400px;
+    border: 2px solid;
+    border-radius: 10px;
+    margin: 10px;
+    /* esconde conteudo maior 
+    que o componente */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .titulo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.card .conteudo {
+    background-color: white;
+    color: black;
+    flex: 1;   
+}
