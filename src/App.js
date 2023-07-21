@@ -6,6 +6,7 @@ import ComParametros from './componentes/basico/ComParametros';
 function App() {
   return (
     <div className="App">
+      
       <Card titulo="Exercicio 2" color="#4a4e4d">
         <ComParametros nome='João' materia='Biologia' nota={6}/>
       </Card>
