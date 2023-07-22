@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
 
-      <Card titulo="Exercicio 4 - Familia + Membro" color="#63ace5">
+      <Card titulo="Exercicio 4 - Familia + Membro" color="#0392cf">
         <Familia sobrenome="Lara">
           <FamiliaMembro nome="Anderson" />
           <FamiliaMembro nome="Rafael" />
