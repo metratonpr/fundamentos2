@@ -2,13 +2,14 @@ import './App.css';
 import Hello from './componentes/basico/Hello';
 import Card from './componentes/layout/Card';
 import ComParametros from './componentes/basico/ComParametros';
+import Aleatorio from './componentes/basico/Aleatorio';
 
 function App() {
   return (
     <div className="App">
 
       <Card titulo="Exercicio 3" color="#63ace5">
-        <Aleatorio min={1} max={10}/>
+        <Aleatorio min={1} max={100}/>
       </Card>
 
       <Card titulo="Exercicio 2" color="#4a4e4d">
