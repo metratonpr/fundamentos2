@@ -5,14 +5,14 @@ import ComParametros from './componentes/basico/ComParametros';
 import Aleatorio from './componentes/basico/Aleatorio';
 import Familia from './componentes/basico/Familia';
 import FamiliaMembro from './componentes/basico/FamiliaMembro';
-import Lista from './componentes/Repeticao/Lista';
+import ListaAlunos from './componentes/repeticao/ListaAlunos';
 
 function App() {
   return (
     <div className="App">
 
       <Card titulo="Exercicio 5 - Repetição" color="#0392cf">
-        <Lista />
+        <ListaAlunos />
       </Card>
 
       <Card titulo="Exercicio 4 - Familia + Membro" color="#0392cf">
