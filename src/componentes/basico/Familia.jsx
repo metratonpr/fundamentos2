@@ -5,7 +5,8 @@ export default function Familia(props) {
         <div>
             <h1>Familia: {props.sobrenome}</h1>
             {props.children.map((child, i) => {
-                return cloneElement(child, { ...props, key: i });
+                return cloneElement(child, 
+                    { ...props, key: i });
             })}
         </div>
     )
