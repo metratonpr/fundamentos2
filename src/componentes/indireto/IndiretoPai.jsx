@@ -7,7 +7,12 @@ export default function IndiretaPai() {
     const [idade, setIdade] = useState(40)
     const [eNerd, setENerd] = useState(true)
 
-    
+    function processar(nomeFilho, idadeFilho, eNerdFilho){
+        setNome(nomeFilho)
+        setIdade(idadeFilho)
+        setENerd(eNerdFilho)
+    }
+
 
     return (
         <div>
