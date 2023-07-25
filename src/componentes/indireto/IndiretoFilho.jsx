@@ -10,7 +10,8 @@ export default function IndiretaFilho(props) {
         <div>
             <div>Filho</div>
             <button onClick={ 
-                (e) => clickPai("Joao", gerarIdade(), gerarNerd())}>
+                (e) => clickPai("Joao", gerarIdade(), gerarNerd())
+                }>
                 Fornecer Informações
             </button>
         </div>

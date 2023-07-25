@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import IndiretaFilho from "./IndiretoFilho";
 
 
 export default function IndiretaPai() {
@@ -12,14 +13,14 @@ export default function IndiretaPai() {
         setIdade(idadeFilho)
         setENerd(eNerdFilho)
     }
-    
+
     return (
         <div>
             <h2>Elemento Pai</h2>
             <p>{nome}</p>
             <p>{idade}</p>
             <p>É nerd: {eNerd ? "Sim" : "Não"}</p>
-
+            <IndiretaFilho clickPai={processar} />
         </div>
     )
 }

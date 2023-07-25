@@ -6,10 +6,15 @@ import Aleatorio from './componentes/basico/Aleatorio';
 import Familia from './componentes/basico/Familia';
 import FamiliaMembro from './componentes/basico/FamiliaMembro';
 import ListaAlunos from './componentes/repeticao/ListaAlunos';
+import IndiretaPai from './componentes/indireto/IndiretoPai';
 
 function App() {
   return (
     <div className="App">
+
+      <Card titulo="Exercicio 6 - Comunicacao Indireta" color="#0392cf">
+        <IndiretaPai />
+      </Card>
 
       <Card titulo="Exercicio 5 - Repetição" color="#0392cf">
         <ListaAlunos />
