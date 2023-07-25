@@ -7,6 +7,8 @@ export default function IndiretaPai() {
     const [idade, setIdade] = useState(40)
     const [eNerd, setENerd] = useState(true)
 
+    
+
     return (
         <div>
             <h2>Elemento Pai</h2>
