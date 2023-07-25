@@ -12,8 +12,7 @@ export default function IndiretaPai() {
         setIdade(idadeFilho)
         setENerd(eNerdFilho)
     }
-
-
+    
     return (
         <div>
             <h2>Elemento Pai</h2>
