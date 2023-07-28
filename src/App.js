@@ -7,10 +7,14 @@ import Familia from './componentes/basico/Familia';
 import FamiliaMembro from './componentes/basico/FamiliaMembro';
 import ListaAlunos from './componentes/repeticao/ListaAlunos';
 import IndiretaPai from './componentes/indireto/IndiretoPai';
-
+import Input from './componentes/input/Input';
 function App() {
   return (
     <div className="App">
+
+      <Card titulo="Exercicio 7 - Input" color="#f6cd61">
+        <Input />
+      </Card>
 
       <Card titulo="Exercicio 6 - Comunicacao Indireta" color="#0392cf">
         <IndiretaPai />
