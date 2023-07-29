@@ -10,8 +10,12 @@ export default function Contador(props){
                 <input type="text" id="numero" value={numero} />
             </div>
             <div>
-                <label htmlFor="numero">Passo</label>
-                <input type="text" id="numero" value={numero} />
+                <label htmlFor="passo">Passo</label>
+                <input type="text" id="passo" value={passo} />
+            </div>
+            <div>
+                <button>-</button>
+                <button>+</button>
             </div>
         </div>
     )
