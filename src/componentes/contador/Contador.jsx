@@ -1,22 +1,36 @@
-import React, {useState} from 'react'
+import React, { Component } from 'react'
 
-export default function Contador(props){
-    const[numero, setNumero] = useState(0)
-    const[passo, setPasso] = useState(0)
-    return(
-        <div>
+export default class Contador extends Component {
+
+    state = {
+        numero: this.props.numero,
+        passo: this.props.passo
+    }
+
+    incrementar = () => {
+
+    }
+    decrementar = () => {
+
+    }
+
+    render() {
+        return (
             <div>
-                <label htmlFor="numero">Numero</label>
-                <input type="text" id="numero" value={numero} />
+                <div>
+                    <label htmlFor="numero">Numero</label>
+                    <input type="text" id="numero" value={this.state.numero} />
+                </div>
+                <div>
+                    <label htmlFor="passo">Passo</label>
+                    <input type="text" id="passo" value={this.state.passo} />
+                </div>
+                <div>
+                    <button onClick={this.incrementar}>-</button>
+
+                    <button onClick={this.decrementar}>+</button>
+                </div>
             </div>
-            <div>
-                <label htmlFor="passo">Passo</label>
-                <input type="text" id="passo" value={passo} />
-            </div>
-            <div>
-                <button>-</button>
-                <button>+</button>
-            </div>
-        </div>
-    )
+        )
+    }
 }
