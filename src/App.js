@@ -15,7 +15,7 @@ function App() {
     <div className="App">
 
       <Card titulo="Exercicio 8 - Contador 1" color="#f6cd61">
-        <Contador />
+        <Contador  numero={10} passo={1}/>
       </Card>
 
       <Card titulo="Exercicio 7 - Input" color="#f6cd61">
